@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import Product from './Product'
 
-class ProductList extends Component {
-    render() {
-        return (
-            <div>
+function ProductList(props) {
+   
+    return (
+        <div>
 
-                <ProductList/>
+        <Product/>
                 
-            </div>
-        );
-    }
+        </div>
+    );
+    
 }
 
 export default ProductList;
