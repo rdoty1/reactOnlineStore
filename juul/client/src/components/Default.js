@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-function Default(props){
-    
-    return (
-        <div>
-            <h3> page not found</h3>
-        </div>
+class Default extends Component {
+    render() {
+        return (
+            <div>
+                <h3> page not found</h3>
+            </div>
         );
-    
+    }
 }
 
 export default Default;

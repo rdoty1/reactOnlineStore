@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-function Details(props) {
-   
-    return (
-        <div>
-            <h3> hello from details</h3>
-        </div>
-    );
-    
+class Details extends Component {
+    render() {
+        return (
+            <div>
+                <h3> hello from details</h3>
+            </div>
+        );
+    }
 }
 
 export default Details;
