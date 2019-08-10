@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Product from './Product'
 import {storeProducts} from '../data'
 import Title from './Title';
+import {ProductConsumer} from '../context'
+
 
 class ProductList extends Component {
     state= {
@@ -16,8 +18,13 @@ class ProductList extends Component {
                         <Title name="our" title="products"/>
                 
                         <div className="row">
+                            <ProductConsumer>
+                                {hello=>{
+                                    return <h1>{hello}</h1>
 
+                                }}
 
+                            </ProductConsumer>
                         </div>
                     </div>
                 </div>
