@@ -18,7 +18,6 @@ import Product from './components/Product';
 function App() {
   return (
     <React.Fragment>
-      
       <Navbar></Navbar>
       <Switch>
         <Route exact path="/" component={ProductList}></Route>
@@ -26,14 +25,7 @@ function App() {
         <Route path="/cart" component={Cart}></Route>
         <Route  component={Default}></Route>
       </Switch>
-
-      
-      
-      
     </React.Fragment>
- 
-
-   
   );
 }
 
