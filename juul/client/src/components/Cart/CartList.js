@@ -8,17 +8,15 @@ function CartList({value}) {
     console.log(value,cart);
     return (
         
-        <div> helklow from cart Cart List
+        <div className="container-fluid">
+            {cart.map(item => {
+                return <CartItem key={item.id} item={item} value={value} />
+            })}
 
-            <CartItem></CartItem>
         </div>
-
-        
-
 
     )
     
-
 }
 
 export default CartList;
