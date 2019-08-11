@@ -39,8 +39,9 @@ class Product extends Component {
 
                             <h5 className="text-blue font-italic mb-0">
                                 <span className="mr-1">$</span>
-                                {price}
+                                    {price}
                             </h5>
+                            
                         
                         
                         </p>
