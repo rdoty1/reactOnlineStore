@@ -10,7 +10,10 @@ class ProductProvider extends Component {
 
     state = {
         products: [],
-        detailProduct: detailProduct
+        detailProduct: detailProduct,
+        cart:[],
+        modalOpen: true,
+        modalProduct: detailProduct, 
     };
     componentDidMount() {
         this.setProducts();
@@ -44,9 +47,23 @@ class ProductProvider extends Component {
     }
 
     addToCart = (id) =>{
-        console.log(`hello from add to cart.id is ${id}`);
+        let tempProducts = [...this.state.products];
+        const index = tempProducts.indexOf(this.getItem(id));
+        const product = tempProducts[index];
+        product.inCart = true; 
+        product.count = 1;
+        const price = product.price;
+        product.total = price; 
+        this.setState(() => {
+            return {products:tempProducts, cart:[...this.state.cart, product]};
+
+        },() => {
+            console.log(this.state)
+        })
+
     }
 
+    // TESTER FUNCTION ============================================= //
     // tester = () => {
     //     console.log('State products :', this.state.products[0].inCart);
     //     console.log('Data products :', storeProducts[0].inCart);
@@ -62,6 +79,15 @@ class ProductProvider extends Component {
 
     //     })
     // }
+    // TESTER FUNCTION ============================================= //
+
+    openModal = id => {
+        const product = this.getItem(id);
+        this.setState(() => {
+            return {modalProduct:product, modalOpen: true} 
+        })
+
+    }
 
     render() {
         return (
