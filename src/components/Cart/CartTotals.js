@@ -35,7 +35,6 @@ function CartTotals({value, history}) {
                         </h5>
                         <PayPalButton total={cartTotal} clearCart={clearCart} history={history} />
 
-                      
                     </div>
                 
                 </div>

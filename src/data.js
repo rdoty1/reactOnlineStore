@@ -5,33 +5,33 @@ export const storeProducts = [
     title: "iPhone Lightning Bolt to Juul Charger",
     img: "img/product-1.jpg",
     price: 10,
-    company: "Portable Chargers Inc.",
+    company: "Portable Vape Chargers Inc.",
     info:
-      "This is the third generation of portable chargers for the Juul. This charger is usable straight out of the box, all it takes is an iPhone with a lightening bolt port to being charging your Juul. It possess high quality wires to ensure fast charging speed and durability. This will be the charger that you dont want to leave home without! All charging cables are individually put through thorough testing, strictly before leaving the factory to ensure user satisfaction.",
+      "This is the third generation of portable chargers for the Juul. This charger is usable straight out of the box, all it takes is an iPhone with a lightening bolt port to begin charging your Juul. It possess high quality wires to ensure fast charging speed and durability. This will be the charger that you dont want to leave home without! All charging cables are individually put through thorough testing, strictly before leaving the factory to ensure user satisfaction.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 2,
-    title: "Samsung S7",
-    img: "img/product-2.png",
+    title: "MacBook Thunderbolt 3 to Juul Charger",
+    img: "img/product-2.jpg",
     price: 16,
-    company: "SAMSUNG",
+    company: "Portable Vape Chargers Inc.",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "This is the third generation of portable chargers for the Juul. This charger is usable straight out of the box, all it takes is an MacBook with a Thunderbolt 3 port to begin charging your Juul. It possess high quality wires to ensure fast charging speed and durability. This will be the charger that you dont want to leave home without! All charging cables are individually put through thorough testing, strictly before leaving the factory to ensure user satisfaction.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
-    img: "img/product-3.png",
+    title: "USB-C to Juul Charger",
+    img: "img/product-3.jpg",
     price: 8,
-    company: "htc",
+    company: "Portable Vape Chargers Inc.",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "This is the third generation of portable chargers for the Juul. This charger is usable straight out of the box, all it takes is an mobile device with a USB-C port to begin charging your Juul. It possess high quality wires to ensure fast charging speed and durability. This will be the charger that you dont want to leave home without! All charging cables are individually put through thorough testing, strictly before leaving the factory to ensure user satisfaction.",
     inCart: false,
     count: 0,
     total: 0
