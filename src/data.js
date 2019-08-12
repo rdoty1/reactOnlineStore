@@ -26,7 +26,7 @@ export const storeProducts = [
   },
   {
     id: 3,
-    title: "USB-C to Juul Charger",
+    title: "TYPE C Mobile Device (Android) / USB-C to Juul Charger",
     img: "img/product-3.jpg",
     price: 8,
     company: "Portable Vape Chargers Inc.",
@@ -38,12 +38,12 @@ export const storeProducts = [
   },
   {
     id: 4,
-    title: "HTC 10 - White",
-    img: "img/product-4.png",
+    title: "Silicone Cell Phone Holder Case for Juul",
+    img: "img/product-4.jpg",
     price: 18,
-    company: "htc",
+    company: "Portable Vape Chargers Inc.",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "This silicone cell phone holder case for the Juul, makes charging your Juul effortless. This holder case, sticks to the back of your device, and is compatible with any Juul mobile charger as well as any mobile device.",
     inCart: false,
     count: 0,
     total: 0
