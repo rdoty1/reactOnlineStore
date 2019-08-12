@@ -2,12 +2,12 @@
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
-    img: "img/product-1.png",
+    title: "iPhone Lightning Bolt to Juul Charger",
+    img: "img/product-1.jpg",
     price: 10,
-    company: "GOOGLE",
+    company: "Portable Chargers Inc.",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "This is the third generation of portable chargers for the Juul. This charger is usable straight out of the box, all it takes is an iPhone with a lightening bolt port to being charging your Juul. It possess high quality wires to ensure fast charging speed and durability. This will be the charger that you dont want to leave home without! All charging cables are individually put through thorough testing, strictly before leaving the factory to ensure user satisfaction.",
     inCart: false,
     count: 0,
     total: 0
